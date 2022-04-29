@@ -1,0 +1,32 @@
+{
+  "name": "orangehrm-cypress-cucumber-typescript",
+  "version": "1.0.0",
+  "description": "Cypress Typescript Automation Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "cypress/step_definitions"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shanu8132/orangeHRM-cypress-cucumber-typescript.git"
+  },
+  "author": "Salim Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shanu8132/orangeHRM-cypress-cucumber-typescript/issues"
+  },
+  "homepage": "https://github.com/shanu8132/orangeHRM-cypress-cucumber-typescript#readme",
+  "devDependencies": {
+    "cypress": "^9.6.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "tsify": "^5.0.4"
+  }
+}

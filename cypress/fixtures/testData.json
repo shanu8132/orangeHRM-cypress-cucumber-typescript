@@ -1,0 +1,13 @@
+{
+  "username": "Admin",
+  "password": "admin123",
+  "firstname": "Salim",
+  "lastname": "Khan",
+  "empid": 840,
+  "new_username": "salim01",
+  "new_password": "admin123",
+  "job_title": "Engineer",
+  "vacancy_name": "Automation Test Engineer",
+  "positions": 2,
+  "vacancy_description": "We are looking for candidates having 4+ years of Test Automation Experience"
+}
