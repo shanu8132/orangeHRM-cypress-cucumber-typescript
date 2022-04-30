@@ -24,3 +24,8 @@ Feature: Create a Vacancy,Validate and Delete it
     Given Check the Vacancy in the WebTable
     When Delete the Vacancy
     Then Check the Success Message
+
+    Scenario: Logout from the Application
+    Given I navigate to Logout Button
+    When I click on Logout
+    Then I should be navigated to Login Page

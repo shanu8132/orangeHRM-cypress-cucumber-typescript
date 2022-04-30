@@ -1,7 +1,7 @@
 /// <reference types="Cypress" />
 import { Given,Then, When } from 'cypress-cucumber-preprocessor/steps';
 import orangeHRM_HeaderMenu from "../../page-objects/orangeHRM_HeaderMenu";
-import orangeHRM_AddVacancy from "../../page-objects/orangeHRM_AddVacancy";
+import orangeHRM_AddVacancy from "../../page-objects/orangeHRM_AddVacancyPage";
 
 const headerMenu = new orangeHRM_HeaderMenu();
 const addVacancy = new orangeHRM_AddVacancy();
