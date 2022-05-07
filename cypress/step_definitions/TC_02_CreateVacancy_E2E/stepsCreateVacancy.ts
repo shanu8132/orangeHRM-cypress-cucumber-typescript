@@ -39,17 +39,9 @@ When('Select the Vacancy Name and Search',function(){
 })
 
 Then('Check the Vacancy in the WebTable',function(){
-    addVacancy.getWebTable_VacancyColumn().each(($el,index)=>{
-        if($el.text().includes(this.data.vacancy_name)){
-            addVacancy.getWebTable_StatusColumn().eq(index).then(function(status)
-            {
-                const actualStatus = status.text()
-                expect(actualStatus).to.equal('Active')
-
-            })
-        }
-        
-})
+    //Used the Custom Command Functionalty Here
+    //Actual Implementation is in /support/commands.ts and declaration is in /support/index.ts
+     cy.searchVacancy(this.data.vacancy_name)
 })
 
 When('Delete the Vacancy',function(){

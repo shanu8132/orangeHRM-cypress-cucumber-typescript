@@ -17,6 +17,13 @@
 import '@shelex/cypress-allure-plugin';
 import './commands'
 
+declare global {
+  namespace Cypress {
+  interface Chainable {
+    searchVacancy(vacancy_name: string): Chainable<Element>;
+  }
+}}
+
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
 
